@@ -67,7 +67,7 @@ void CharacterScene::Update(void) {
 void CharacterScene::Draw(void) {
 	m_background.Draw(); // Render background
 	//mccree.Draw(); // Rencer mccree
-	R.Rotate(mccree.transform,ObjectID::MCCREE, flip);
+	R.Rotate(mccree.transform,ObjectID::MCCREE, flip); // IT'S HIGH NOON
 	//GUI::DrawTextShaded<FontID::FACTORY>("It's High Noon",
 	//{ W.GetWidth() >> 1, int(W.GetHeight()*.1f), 1, 1 },
 	//{ 190, 0, 160 }, { 50, 200, 230 }); // Render score that will be different when updated
