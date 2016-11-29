@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\MiniCandyCrush\src\CandyCrush\CharacterScene.cc" />
+    <ClCompile Include="CharacterScene.cc" />
     <ClCompile Include="GameScene.cc" />
     <ClCompile Include="Grid.cc" />
     <ClCompile Include="main.cc" />
